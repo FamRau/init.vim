@@ -41,3 +41,6 @@
 ## Specific Commands
     Launch and exit Goyo:            Goyo
     Lauch LanguageTool:              LanguageToolCheck 
+
+ ## Screenshot
+    ![](images/screenshot.png)
