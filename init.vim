@@ -9,13 +9,9 @@
 
 call plug#begin(stdpath('data') . '/plugged')
 
-" Autocomplete deoplete-jedi
+" asynchronous completion framework
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'zchee/deoplete-jedi'
 
-" Syntastic
-"Plug 'scrooloose/syntastic'
-   
 " Nerdtree 
 Plug 'scrooloose/nerdtree'
 
