@@ -31,13 +31,16 @@
 
 
 ## Shortcuts
-    Nerdtree:                       <Strg> d
-    Cursor left, right, up, down:   h, l, k, j
-    Window left, right, up, down:   <Strg> h, l, k, j
-    Taglist:                        <Strg> t
-    Tasklist:                       , t
-    ctrlp:                          <Strg> p
+    Nerdtree:                                           <Strg> d
+    Cursor left, right, up, down:                       h, l, k, j
+    Window left, right, up, down:                       <Strg> h, l, k, j
+    Taglist:                                            <Strg> t
+    Tasklist:                                           , t
+    ctrlp:                                              <Strg> p
+    Split window horizontal and open a terminal         <Strg c> h
+    Split window vertical and open a terminal           <Strg c> v
 
+    
 ## Specific Commands
     Launch and exit Goyo:            Goyo
     Lauch LanguageTool:              LanguageToolCheck 
