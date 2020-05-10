@@ -43,4 +43,4 @@
     Lauch LanguageTool:              LanguageToolCheck 
 
  ## Screenshot
-    ![](/images/screenshot.jpg)
+    ![](https://github.com/FamRau/init.vim/blob/master/images/screenshot.jpg)
