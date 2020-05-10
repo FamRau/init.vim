@@ -9,7 +9,6 @@
 - vim-plug (Vim Plugin Manager):                                https://github.com/junegunn/vim-plug
 
 ## Plugins
-- vim-plug (Vim Plugin Manager):                                https://github.com/junegunn/vim-plugg
 - Nerdtree (tree explorer):                                     https://github.com/preservim/nerdtree
 - Taglist (Source code browser):                                https://github.com/yegappan/taglist
 - Tasklist (Eclipse like task list):                            https://github.com/vim-scripts/TaskList.vim
