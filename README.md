@@ -3,7 +3,7 @@
 
 My init.vim configuration for 
 - C
-- Markdown  
+- Markdown + pandoc  
 
 ## Theme:
 - vim-one https://github.com/rakr/vim-one
