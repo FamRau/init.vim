@@ -43,4 +43,4 @@
     Lauch LanguageTool:              LanguageToolCheck 
 
  ## Screenshot
-    ![](images/screenshot.png)
+    ![](/images/screenshot.jpg)
