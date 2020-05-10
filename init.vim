@@ -110,6 +110,8 @@ set undodir=$HOME/.vim/vimundo
 set undolevels=1000
 let mapleader=","
 set termguicolors
+set splitright 
+set splitbelow
 
 
 "------------------------------------------------------------------------------
@@ -140,6 +142,27 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" Terminal
+" Maps ESC to exit terminal's insert mode
+  if has('nvim')
+    tnoremap <silent> <Esc> <C-\><C-n>
+  endif
+
+  " Maps ctrl-c + h to open a new horizontal split with a terminal
+  nnoremap <C-c>h :sp +terminal<CR>
+
+  " Maps ctrl-c + v to open a new vertical split with a terminal
+  nnoremap <C-c>v :vsp +terminal<CR>
+
+    augroup neovim_terminal
+    autocmd!
+
+    " Enter Terminal-mode (insert) automatically
+    autocmd TermOpen * startinsert
+
+    " Disables number lines on terminal buffers
+    autocmd TermOpen * :set nonumber norelativenumber
+  augroup END
 
 "------------------------------------------------------------------------------
 " Specific Plugin Settings
