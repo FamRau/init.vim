@@ -43,7 +43,7 @@
     
 ## Specific Commands
     Launch and exit Goyo:            Goyo
-    Lauch LanguageTool:              LanguageToolCheck 
+    Launch LanguageTool:             LanguageToolCheck 
 
  ## Screenshot
  ![screenshot](https://user-images.githubusercontent.com/8960157/81505001-d6afbd00-92ec-11ea-8847-33b7b2a64366.jpg)
