@@ -33,9 +33,6 @@ Plug 'sbdchd/neoformat'
 " Line Intend
 Plug 'Yggdroot/indentLine'
 
-"Code checker plugin
-":Plug 'neomake/neomake'
-
 " Ale Code Linting
 Plug 'dense-analysis/ale'
 
@@ -209,7 +206,6 @@ let g:ale_virtualtext_cursor = 0
 let g:ale_warn_about_trailing_blank_lines = 1
 let g:ale_warn_about_trailing_whitespace = 1
 
-
 "Nerdtree 
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 nnoremap <C-d> :NERDTreeToggle<CR>
@@ -238,7 +234,7 @@ let g:vim_markdown_toc_autofit = 1
 set  nofoldenable
 
 " Vim-pencil
-filetype plugin on       " may already be in your .vimrc
+filetype plugin on       
 let g:pencil#wrapModeDefault = 'soft'   " default is 'hard'
 let g:pencil#joinspaces = 0     " 0=one_space (def), 1=two_spaces
 
