@@ -73,6 +73,9 @@ Plug 'unblevable/quick-scope'
 " Automatically clear search highlights after you move your cursor.
 Plug 'haya14busa/is.vim'
 
+" Refactoring
+Plug 'luchermitte/vim-refactor'
+
 " csv 
 Plug 'chrisbra/csv.vim'
 
@@ -122,7 +125,7 @@ set splitbelow
 colorscheme one
 
 " background
-set background=light
+set background=dark
 
 " airline_theme
 let g:airline_theme='one'
@@ -144,17 +147,17 @@ nnoremap <C-H> <C-W><C-H>
 
 " Terminal
 " Maps ESC to exit terminal's insert mode
-  if has('nvim')
+if has('nvim')
     tnoremap <silent> <Esc> <C-\><C-n>
-  endif
+endif
 
-  " Maps ctrl-c + h to open a new horizontal split with a terminal
-  nnoremap <C-c>h :sp +terminal<CR>
+" Maps ctrl-c + h to open a new horizontal split with a terminal
+nnoremap <C-c>h :sp +terminal<CR>
 
-  " Maps ctrl-c + v to open a new vertical split with a terminal
-  nnoremap <C-c>v :vsp +terminal<CR>
+" Maps ctrl-c + v to open a new vertical split with a terminal
+nnoremap <C-c>v :vsp +terminal<CR>
 
-    augroup neovim_terminal
+augroup neovim_terminal
     autocmd!
 
     " Enter Terminal-mode (insert) automatically
@@ -162,7 +165,7 @@ nnoremap <C-H> <C-W><C-H>
 
     " Disables number lines on terminal buffers
     autocmd TermOpen * :set nonumber norelativenumber
-  augroup END
+augroup END
 
 "------------------------------------------------------------------------------
 " Specific Plugin Settings
@@ -233,6 +236,7 @@ let g:ale_warn_about_trailing_whitespace = 1
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 nnoremap <C-d> :NERDTreeToggle<CR>
 let g:nerdtree_tabs_open_on_gui_startup=0
+let NERDTreeShowBookmarks=1
 
 "taglist
 nnoremap <silent> <C-t> :TlistToggle<CR>

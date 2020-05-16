@@ -19,16 +19,16 @@
 - Neoformat (A (Neo)vim plugin for formatting code):            https://github.com/sbdchd/neoformat 
 - Ale (Asynchronous Lint Engine):                               https://github.com/dense-analysis/ale
 - ctrlp (fuzzy file, buffer, mru, tag, ... finder):             https://github.com/ctrlpvim/ctrlp.vim
-- vim-highlightedyank (Make the yanked region apparent):         https://github.com/machakann/vim-highlightedyank
+- vim-highlightedyank (Make the yanked region apparent):        https://github.com/machakann/vim-highlightedyank
 - Vim-markdown (Markdown Vim Mode):                             https://github.com/plasticboy/vim-markdown
 - Vim-pandoc (pandoc integration):                              https://github.com/vim-pandoc/vim-pandoc
 - Vim-pencil (Vim as a tool for writing):                       https://github.com/reedes/vim-pencil
 - Goyo-vim (Distraction-free writing):                          https://github.com/junegunn/goyo.vim
-- vim-LanguageTool (LanguageTool grammar checker):               https://github.com/dpelle/vim-LanguageTool
-- Quick-scope (fast left-right movement):                        https://github.com/unblevable/quick-scope
+- vim-LanguageTool (LanguageTool grammar checker):              https://github.com/dpelle/vim-LanguageTool
+- Quick-scope (fast left-right movement):                       https://github.com/unblevable/quick-scope
 - Theme: vim-one (one-light and one-dark colorschemes):         https://github.com/rakr/vim-one
 - vim-airline (Lean & mean status/tabline):                     https://github.com/vim-airline/vim-airline
-
+- vim-refactor:                                                 https://vimawesome.com/plugin/vim-refactor
 
 ## Shortcuts
     Nerdtree:                                           <Strg> d
@@ -39,7 +39,7 @@
     ctrlp:                                              <Strg> p
     Split window horizontal and open a terminal         <Strg c> h
     Split window vertical and open a terminal           <Strg c> v
-
+    Refactoring function, variable, type                <C-X>f, <C-X>v, <C-X>t
     
 ## Specific Commands
     Launch and exit Goyo:            Goyo
