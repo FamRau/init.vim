@@ -28,7 +28,6 @@
 - Quick-scope (fast left-right movement):                       https://github.com/unblevable/quick-scope
 - Theme: vim-one (one-light and one-dark colorschemes):         https://github.com/rakr/vim-one
 - vim-airline (Lean & mean status/tabline):                     https://github.com/vim-airline/vim-airline
-- vim-refactor:                                                 https://vimawesome.com/plugin/vim-refactor
 
 ## Shortcuts
     Nerdtree:                                           <Strg> d
@@ -39,7 +38,6 @@
     ctrlp:                                              <Strg> p
     Split window horizontal and open a terminal         <Strg c> h
     Split window vertical and open a terminal           <Strg c> v
-    Refactoring function, variable, type                <C-X>f, <C-X>v, <C-X>t
     
 ## Specific Commands
     Launch and exit Goyo:            Goyo

@@ -73,9 +73,6 @@ Plug 'unblevable/quick-scope'
 " Automatically clear search highlights after you move your cursor.
 Plug 'haya14busa/is.vim'
 
-" Refactoring
-Plug 'luchermitte/vim-refactor'
-
 " csv 
 Plug 'chrisbra/csv.vim'
 
