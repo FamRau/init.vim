@@ -112,7 +112,7 @@ let mapleader=","
 set termguicolors
 set splitright 
 set splitbelow
-
+set inccommand=nosplit
 
 "------------------------------------------------------------------------------
 " Color Settings
