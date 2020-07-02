@@ -42,6 +42,7 @@
 ## Specific Commands
     Launch and exit Goyo:            Goyo
     Launch LanguageTool:             LanguageToolCheck 
-
+    search & replace                 :%s/search/replace/g
+    
  ## Screenshot
  ![screenshot](https://user-images.githubusercontent.com/8960157/81505001-d6afbd00-92ec-11ea-8847-33b7b2a64366.jpg)
