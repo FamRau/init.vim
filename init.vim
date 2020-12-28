@@ -51,6 +51,10 @@ Plug 'altercation/vim-colors-solarized'
 " Markdown
 Plug 'plasticboy/vim-markdown'
 
+"Markdown Preview
+ Plug 'skanehira/preview-markdown.vim'
+
+
 " vim -pandoc
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
@@ -113,6 +117,7 @@ set termguicolors
 set splitright 
 set splitbelow
 set inccommand=nosplit
+set incsearch
 
 "------------------------------------------------------------------------------
 " Color Settings
@@ -256,6 +261,10 @@ let g:neomake_python_enabled_makers = ['pylint']
 " vim markdown
 let g:vim_markdown_toc_autofit = 1
 set  nofoldenable
+let g:vim_markdown_folding_style_pythonic = 1
+let g:vim_markdown_frontmatter = 1
+let g:vim_markdown_strikethrough = 1
+let g:preview_markdown_vertical = 1 "Preview Markdown Vertical
 
 " Vim-pencil
 filetype plugin on       
