@@ -32,7 +32,7 @@
 ## Shortcuts
     Nerdtree:                                           <Strg> d
     Cursor left, right, up, down:                       h, l, k, j
-    Window left, right, up, down:                       <Strg> h, l, k, j
+    Window left, right, up, down:                       <Alt> h, l, k, j
     Taglist:                                            <Strg> t
     Tasklist:                                           , t
     ctrlp:                                              <Strg> p
@@ -42,6 +42,7 @@
 ## Specific Commands
     Launch and exit Goyo:            Goyo
     Launch LanguageTool:             LanguageToolCheck 
+    PreviewMarkdown:                 Preview markdown in vertical pane
     search & replace                 :%s/search/replace/g
     
  ## Screenshot
